@@ -12,8 +12,9 @@ public static void main(String[] args) {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
 	driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("Jeevitha");
-	
+	System.out.println("gv");
 	System.out.println("done");
+	
 }
 
 }
